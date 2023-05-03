@@ -1,0 +1,64 @@
+{
+  "movies": [
+    {
+      "title": "Avengers: Infinity war",
+      "year": "",
+      "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/avengers-infinity-war.jpg"
+    },
+    {
+      "title": "Eternals",
+      "year": "",
+      "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/eternals.jpg"
+    },
+    {
+      "title": "The Devil Wears Prada",
+      "year": "",
+      "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-devil-wears-prada.jpg"
+    },
+    {
+      "title": "Spider-Man: No Way Home",
+      "year": "",
+      "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/spider-man-no-way-home.jpg"
+    },
+    {
+      "title": "The Flash: Worlds Collide",
+      "year": "",
+      "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-flash.jpg"
+    },
+    {
+      "title": "The Lion King",
+      "year": "",
+      "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-lion-king.jpg"
+    },
+    {
+      "title": "The Shining",
+      "year": "",
+      "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-shining.jpg"
+    },
+    {
+      "title": "Toy Story 3",
+      "year": "",
+      "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/toy-story-3.jpg"
+    },
+    {
+      "title": "No Time To Die",
+      "year": "",
+      "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/no-time-to-die.jpg"
+    },
+    {
+      "title": "The Batman",
+      "year": "",
+      "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-batman.jpg"
+    },
+    {
+      "title": "Gone In 60 Seconds",
+      "year": "",
+      "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/gone-in-60-seconds.jpg"
+    },
+    {
+      "title": "F9: The Fast Saga",
+      "year": "",
+      "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/f9-the-fast-saga.jpg"
+    }
+  ]
+}
