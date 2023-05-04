@@ -2,6 +2,19 @@
 
 @import url(./reset.css);
 
+:root {
+  --app-dark-bg: #1a1d28;
+  --app-green: #33ab4e;
+  --app-purple: #833cff;
+  --app-orange1: #FF7B02;
+  --app-dark-blue: #1a2649;
+  --app-lighter-blue: #506290;
+  --app-medium-blue: #283862;
+  --app-grey: #b4b3bd;
+  --app-red: #ff3c57;
+  --app-red-hover: #ff2846;
+}
+
 body {
   background-color: #1a1c24;
 }
@@ -9,5 +22,177 @@ body {
 .container {
   width: min(100% - 30px, 1200px);
   margin-inline: auto;
+}
+
+/*---------------Header---------------*/
+
+header {
+  background-color: #262930;
+  font-family: OpenSans, sans-serif;
+}
+
+.hflex {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  line-height: 60px;
+}
+
+.icon {
+  color: #fff;
+  font-size: 26px;
+}
+
+.icon i {
+  color: var(--app-orange1);
+  margin-right: 6px;
+}
+
+.hflex nav ul {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.hflex nav ul li {
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.hflex nav ul li + li {
+  margin-left: 20px;
+}
+
+.hflex nav ul li:hover {
+  text-decoration: underline var(--app-orange1);
+}
+
+
+/*---------------Inputs---------------*/
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.movie-name {
+  width: 600px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #262930;
+  padding: 10px;
+  background: #262930 url(../image/icons8-search-50.png) no-repeat 8px 10px;
+  color: #fff;
+  padding-left: 35px;
+  font-size: 16px;
+}
+
+.city {
+  position: relative;
+}
+
+.city-name {
+  width: 300px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #262930;
+  padding: 10px;
+  background: #262930 url(../image/icons8-location-50.png) no-repeat 8px 10px;
+  color: #fff;
+  padding-left: 35px;
+  font-size: 16px;
+}
+
+.city button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 70px;
+  height: 30px;
+  background-color: var(--app-orange1);
+  border-radius: 7px;
+  color: #fff;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 186px;
+  width: min(100% - 30px, 1200px);
+}
+
+.movie-list nav ul {
+  min-height: 100px;
+  min-width: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: none;
+}
+
+.movie-list nav ul li {
+  text-align: left;
+  padding: 5px 7px;
+  transition: all 0.75s ease-in-out;
+}
+
+.movie-list nav ul li:hover {
+  background-color: var(--app-orange1);
+  color: #fff;
+}
+
+.city-list nav ul {
+  min-width: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: none;
+}
+
+.city-list nav ul li {
+  text-align: left;
+  padding: 5px 7px;
+  transition: all 0.75s ease-in-out;
+}
+
+.city-list nav ul li:hover {
+  background-color: var(--app-orange1);
+  color: #fff;
+}
+
+/*---------------Poster---------------*/
+
+.display {
+  width: 100%;
+  min-height: 500px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.poster {
+  margin-top: 25px;
+  height: 295px;
+  width: 180px;
+  border-radius: 5px;
+}
+
+.poster .poster-image {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.poster .poster-name {
+  color: #fff;
+  height: 30px;
+  margin-top: 5px;
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 

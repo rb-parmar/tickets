@@ -10,17 +10,68 @@
     <link rel="shortcut icon" href="./assets/image/diamond.png?v=2" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap">  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">  
     <link rel="stylesheet" href="./assets/style/index.css" media="all">
-    <script src="./assets/script/request.js" type="module"></script>
+    <script src="./assets/script/index.js" type="module"></script>
   </head>
   <body>
+    <!-- Header -->
+    <header>
+      <div class="container hflex">
+        <div class="title">
+          <div class="icon"><i class="fa-sharp fa-solid fa-ticket"></i>Tickets</div>
+        </div>
+        <nav>
+          <ul>
+            <li>Movies</li>
+            <li>Theaters</li>
+            <li>Gift Cards</li>
+            <li>Help</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Section -->
     <main>
       <div class="container">
-        <section>
+        <div class="row">
+          <input type="text" class="movie-name" placeholder="Search movies...">
+          <div class="city">
+            <input type="text" class="city-name" placeholder="City">
+            <button>Search</button>
+          </div>
+        </div>
+
+        <div class="list">
+          <div class="movie-list">
+            <nav>
+              <ul>
+                <li>Eternals</li>
+                <li>eternals</li>
+                <li>Eternals</li>
+                <li>eternals</li>
+              </ul>
+            </nav>
+          </div>
+  
+          <div class="city-list">
+            <nav>
+              <ul>
+                <li>Winnipeg</li>
+                <li>Alberta</li>
+                <li>Ottawa</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="display">
           
-        </section>
+        </div>
       </div>
     </main>
   </body>
