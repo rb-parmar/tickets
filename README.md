@@ -7,4 +7,4 @@ An aoutocomplete feature is also implemented.
   <img src="./assets/image/screenshot.png" width="350" title="hover text">
 </p>
 
-Click [here]() to view the ticket's website.
+Click [here](https://rb-parmar.github.io/tickets/) to view the ticket's website.
