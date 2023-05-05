@@ -125,7 +125,7 @@ header {
 }
 
 .movie-list nav ul {
-  min-height: 100px;
+  min-height: 30px;
   min-width: 300px;
   background-color: #fff;
   border-radius: 5px;
@@ -136,6 +136,7 @@ header {
   text-align: left;
   padding: 5px 7px;
   transition: all 0.75s ease-in-out;
+  cursor: pointer;
 }
 
 .movie-list nav ul li:hover {
@@ -154,10 +155,17 @@ header {
   text-align: left;
   padding: 5px 7px;
   transition: all 0.75s ease-in-out;
+  cursor: pointer;
 }
 
 .city-list nav ul li:hover {
   background-color: var(--app-orange1);
+  color: #fff;
+}
+
+
+.playing {
+  margin-top: 90px;
   color: #fff;
 }
 
@@ -166,7 +174,7 @@ header {
 .display {
   width: 100%;
   min-height: 500px;
-  margin-top: 100px;
+  margin-top: 2px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -178,6 +186,11 @@ header {
   height: 295px;
   width: 180px;
   border-radius: 5px;
+  transition: all 0.75s ease-in-out;
+}
+
+.poster:hover {
+  transform: scale(1.1);
 }
 
 .poster .poster-image {
